@@ -11,4 +11,16 @@ Este é um projeto desenvolvido em **COBOL** para demonstrar lógica de programa
    ```bash
    sudo apt-get install gnucobol  # Ubuntu/Debian
    ```
+
+   *  Compile o programa:
+
+   ```Bash
+   cobc -x -o bancario src/main.cbl
+   ```
+
+   *  Execute o binário gerado:
+   
+   ```Bash
+   ./bancario
+   ```
    
